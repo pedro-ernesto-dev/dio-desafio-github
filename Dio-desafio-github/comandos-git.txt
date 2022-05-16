@@ -1,0 +1,45 @@
+#Comandos úteis do Git
+
+git init - inicia o git dentro da nova pasta
+git add - adciona o git
+git commit -
+git pull -
+git push -
+git clone - clona repositório
+git reset HEAD- comando para reverter o último commit
+git help - ajuda
+git status - ver o status do arquivo/repositório
+
+
+#Estados do Git/Arquivos
+
+Modificado (modified);
+Preparado (staged/index)
+Consolidado (comitted);
+
+
+##Comitar arquivo/diretório
+
+Comitar um arquivo
+git commit meu_arquivo.txt
+
+Comitar vários arquivos
+git commit meu_arquivo.txt meu_outro_arquivo.txt
+
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+
+##Adicionar arquivo/diretório (staged area)
+
+Adicionar um arquivo em específico
+git add meu_arquivo.txt
+
+Adicionar um diretório em específico
+git add meu_diretorio
+
+Adicionar todos os arquivos/diretórios
+git add .	
+
+Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+git add -f arquivo_no_gitignore.txt
